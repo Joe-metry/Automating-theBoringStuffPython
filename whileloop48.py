@@ -1,8 +1,8 @@
 # A program that does not stop until you input your name
 
 name = ''
-while name != 'Joseph':
+while name != 'Your name':
     print('Enter your correct name:')
     name = input()
-    if name == 'Joseph':
+    if name == 'Your name':
         print('You are logged in!')
